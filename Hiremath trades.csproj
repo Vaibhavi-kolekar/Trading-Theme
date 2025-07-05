@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86759264-14EB-41D5-878C-823E442C66C9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hiremath_trades</RootNamespace>
+    <AssemblyName>Hiremath trades</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="bin\Hiremath trades.dll" />
+    <Content Include="bin\Hiremath trades.pdb" />
+    <Content Include="Blog.aspx" />
+    <Content Include="Calculator.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Debtfunds.aspx" />
+    <Content Include="ELSS.aspx" />
+    <Content Include="EquityMF.aspx" />
+    <Content Include="FD.aspx" />
+    <Content Include="FP.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HI.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="img\Axis-Logo.png" />
+    <Content Include="img\bajaj-logo.png" />
+    <Content Include="img\favicon.html" />
+    <Content Include="img\FD.jpg" />
+    <Content Include="img\FP.jpg" />
+    <Content Include="img\franklin-logo.png" />
+    <Content Include="img\H1.jpg" />
+    <Content Include="img\H2.jpg" />
+    <Content Include="img\HDFC-logo.png" />
+    <Content Include="img\HI.jpg" />
+    <Content Include="img\HSBC.png" />
+    <Content Include="img\ICICI-logo.png" />
+    <Content Include="img\Kotak-logo.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\MF.jpg" />
+    <Content Include="img\MO.png" />
+    <Content Include="img\PMS.jpg" />
+    <Content Include="img\SBI-logo.png" />
+    <Content Include="img\slider1.jpeg" />
+    <Content Include="img\slider2.jpeg" />
+    <Content Include="img\slider3.jpg" />
+    <Content Include="img\TATA-logo.png" />
+    <Content Include="img\UTI.png" />
+    <Content Include="Indexfunds.aspx" />
+    <Content Include="js\main.js" />
+    <Content Include="lib\animate\animate.min.css" />
+    <Content Include="lib\easing\easing.min.js" />
+    <Content Include="lib\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Include="lib\owlcarousel\assets\owl.video.play.png" />
+    <Content Include="lib\owlcarousel\owl.carousel.min.js" />
+    <Content Include="lib\waypoints\waypoints.min.js" />
+    <Content Include="lib\wow\wow.min.js" />
+    <Content Include="MF.aspx" />
+    <Content Include="obj\Debug\Hiremath trades.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Hiremath trades.dll" />
+    <Content Include="obj\Debug\Hiremath trades.pdb" />
+    <Content Include="PMS.aspx" />
+    <Content Include="scripts\5c5dd728\cloudflare-static\email-decode.min.js" />
+    <Content Include="scripts\7d0fa10a\cloudflare-static\rocket-loader.min.js" />
+    <Content Include="scripts\ajax\libs\font-awesome\5.10.0\css\all.min.css" />
+    <Content Include="scripts\jquery-3.4.1.min.js" />
+    <Content Include="scripts\npm\bootstrap%405.0.0\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="scripts\npm\bootstrap-icons%401.4.1\font\bootstrap-icons.css" />
+    <Content Include="Service.aspx" />
+    <Content Include="SIPcal.aspx" />
+    <Content Include="StepUpCal.aspx" />
+    <Content Include="Sunsex.aspx" />
+    <Content Include="SWPCal.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.aspx.cs">
+      <DependentUpon>Calculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calculator.aspx.designer.cs">
+      <DependentUpon>Calculator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Debtfunds.aspx.cs">
+      <DependentUpon>Debtfunds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Debtfunds.aspx.designer.cs">
+      <DependentUpon>Debtfunds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ELSS.aspx.cs">
+      <DependentUpon>ELSS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ELSS.aspx.designer.cs">
+      <DependentUpon>ELSS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EquityMF.aspx.cs">
+      <DependentUpon>EquityMF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EquityMF.aspx.designer.cs">
+      <DependentUpon>EquityMF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FD.aspx.cs">
+      <DependentUpon>FD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FD.aspx.designer.cs">
+      <DependentUpon>FD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FP.aspx.cs">
+      <DependentUpon>FP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FP.aspx.designer.cs">
+      <DependentUpon>FP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HI.aspx.cs">
+      <DependentUpon>HI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HI.aspx.designer.cs">
+      <DependentUpon>HI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Indexfunds.aspx.cs">
+      <DependentUpon>Indexfunds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Indexfunds.aspx.designer.cs">
+      <DependentUpon>Indexfunds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MF.aspx.cs">
+      <DependentUpon>MF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MF.aspx.designer.cs">
+      <DependentUpon>MF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PMS.aspx.cs">
+      <DependentUpon>PMS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PMS.aspx.designer.cs">
+      <DependentUpon>PMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service.aspx.cs">
+      <DependentUpon>Service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Service.aspx.designer.cs">
+      <DependentUpon>Service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SIPcal.aspx.cs">
+      <DependentUpon>SIPcal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SIPcal.aspx.designer.cs">
+      <DependentUpon>SIPcal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StepUpCal.aspx.cs">
+      <DependentUpon>StepUpCal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StepUpCal.aspx.designer.cs">
+      <DependentUpon>StepUpCal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sunsex.aspx.cs">
+      <DependentUpon>Sunsex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sunsex.aspx.designer.cs">
+      <DependentUpon>Sunsex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SWPCal.aspx.cs">
+      <DependentUpon>SWPCal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SWPCal.aspx.designer.cs">
+      <DependentUpon>SWPCal.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="NewFolder1\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="scripts\npm\bootstrap-icons%401.4.1\font\fonts\bootstrap-iconsfb95.woff" />
+    <None Include="scripts\npm\bootstrap-icons%401.4.1\font\fonts\bootstrap-iconsfb95.woff2" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56715</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

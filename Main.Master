@@ -1,0 +1,175 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Hiremath_trades.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta charset="utf-8" />
+    <title>Hiremath Trades</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content name="keywords" />
+    <meta content name="description" />
+
+    <link href="img/favicon.html" rel="icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;family=Poppins:wght@600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="scripts/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="scripts/npm/bootstrap-icons%401.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server"> </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+           <a href="Home.aspx" class="navbar-brand d-flex align-items-center">
+            <img src="img/logo.png" alt="Hiremath Trades" style="height: 100px; margin-right: 10px;" />
+            <%--<h3 class="m-0" style="font-size: 20px; color: #002E5B;">Hiremath Investments</h3>--%>
+          </a>
+
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse"  >
+        <div class="navbar-nav ms-auto py-3 py-lg-0">
+            <a href="Home.aspx" style="color: #002E5B;" class="nav-item nav-link active">Home</a>
+            <a href="About.aspx" class="nav-item nav-link" style="color: #002E5B;">About Us</a>
+            <a href="Service.aspx" class="nav-item nav-link" style="color: #002E5B;">Our Services</a>
+            <a href="Calculator.aspx" class="nav-item nav-link" style="color: #002E5B;">Calculator</a>
+            <a href="Blog.aspx" class="nav-item nav-link" style="color: #002E5B;">Blog</a>
+            <a href="Contact.aspx" class="nav-item nav-link" style="color: #002E5B;" >Contact Us</a>
+        </div>
+    </div>
+</nav>
+
+
+
+<!--color: #002E5B;  blue-->
+<!--color: #198754;  green-->
+
+
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+			<div class="main-menu text-right">
+				<nav>
+				    <ul>
+						<li><a href="Home.aspx">Home</a></li>
+						<li><a href="About.aspx">About us</a></li>
+						<li><a href="Service.aspx">Our Services</a></li>
+                        <li><a href="Calculator.aspx">Calculators</a></li>
+                        <li><a href="Blog.aspx">Blog</a></li>
+                        <li><a href="Contact.aspx">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+       </asp:ContentPlaceHolder>
+
+
+
+       <!--Footer-->
+<div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Types of MF</h4>
+                <a class="btn btn-link" href="EquityMF.aspx">Equity Mutual Funds</a>
+                <a class="btn btn-link" href="Debtfunds.aspx">Debt Funds</a>
+                <a class="btn btn-link" href="ELSS.aspx">ELSS Funds</a>
+                <a class="btn btn-link" href="Indexfunds.aspx">Index Funds</a>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Mutual Fund Calculator</h4>
+                <a class="btn btn-link" href="SIPcal.aspx">SIP Calculator</a>
+                  <a class="btn btn-link" href="Sunsex.aspx">Live Sunsex</a>
+                <a class="btn btn-link" href="SWPcal.aspx">SWP Calculator</a>
+                <a class="btn btn-link" href="StepUpCal.aspx">Step up Calculator</a>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Quick Links</h4>
+                <a class="btn btn-link" href="About.aspx">About Us</a>
+                <a class="btn btn-link" href="Service.aspx">Our Services</a>
+                <a class="btn btn-link" href="Contact.aspx">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                     &copy; Copyright 2024 - <script>document.write(new Date().getFullYear());</script> Hiremath Investments. | All Rights Reserved |
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By <a href="https:/samruddhitechnologies.com" target="_blank" style="color:#198754;">Samruddhi Technologies</a>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+         <script
+      data-cfasync="false"
+      src="scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script
+      src="scripts/jquery-3.4.1.min.js"
+      type="ab4e1e5189c13ae25ccf0f6f-text/javascript"
+    ></script>
+    <script
+      src="scripts/npm/bootstrap%405.0.0/dist/js/bootstrap.bundle.min.js"
+      type="ab4e1e5189c13ae25ccf0f6f-text/javascript"
+    ></script>
+    <script
+      src="lib/wow/wow.min.js"
+      type="ab4e1e5189c13ae25ccf0f6f-text/javascript"
+    ></script>
+    <script
+      src="lib/easing/easing.min.js"
+      type="ab4e1e5189c13ae25ccf0f6f-text/javascript"
+    ></script>
+    <script
+      src="lib/waypoints/waypoints.min.js"
+      type="ab4e1e5189c13ae25ccf0f6f-text/javascript"
+    ></script>
+    <script
+      src="lib/owlcarousel/owl.carousel.min.js"
+      type="ab4e1e5189c13ae25ccf0f6f-text/javascript"
+    ></script>
+
+    <script
+      src="js/main.js"
+      type="ab4e1e5189c13ae25ccf0f6f-text/javascript"
+    ></script>
+    <script
+      src="scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="ab4e1e5189c13ae25ccf0f6f-|49"
+      defer
+    ></script></form>
+</body>
+
+   
+</html>
